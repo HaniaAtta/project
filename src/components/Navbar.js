@@ -22,30 +22,30 @@ const navbar = () => {
         <div className="collapse navbar-collapse items1 " id="navbarNavDropdown">
           <ul className="navbar-nav ">
             <li className="nav-item">
-            <link to="/Home"> Home</link>
+              <a className="nav-link " aria-current="page" href="index.html" >Home</a>
             </li>
             <li className="nav-item">
-            <link to="/Remedies"> Remedies</link>
+              <a className="nav-link " href="remedies.html" >Remedies </a>
             </li>
             <li className="nav-item">
-            <link to="/Activities"> Activities</link>
+              <a className="nav-link " href="activities.html">Activities</a>
             </li>
-            <li className="nav-item">
-            <link to="/Gardening" > Gardening</link>
+            <li>
+            <a className="nav-link " href="gardentherapy.html" >Gardening</a>
             </li>
-            <li className="nav-item">
-           <link to="/Gallery"> Gallery</link>
+            <li>
+            <a className="nav-link " href="gardentherapy.html" >Gallery</a>
             </li>
     
               <li className="nav-item  ">
-             <Link to="/Courses">Courses</Link>
+              <a className="nav-link " href="gardentherapy.html" >Gallery</a>
             
             </li>
             <li>
-            <Link to="/signup">Sign-up</Link>         
+            <a className="nav-link " href="gardentherapy.html" >Sign-up</a>
                </li>
           </ul>
-         
+          
 
         </div></div>
     </nav></div></div>
