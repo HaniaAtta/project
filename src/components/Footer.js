@@ -1,18 +1,11 @@
 import React from 'react'
 
 const footer = () => {
-  const footBack = {
-    backgroundImage: 'url(./src/images/footingback.jpeg)',
-    height: '600px',
-    backgroundAttachment: 'fixed',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover'
-};
+  
 
   return (
    <>
-  <footer style={footBack}>
+  <footer className="footback">
   <div className="content ">
     <div className="top2">
       <div className="logo-details">
