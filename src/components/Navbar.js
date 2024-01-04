@@ -1,14 +1,10 @@
 import React from 'react'
-import {
-  BrowserRouter as Router, Routes, Route,  Link, 
-  
-} from "react-router-dom";
-import Signup from './components/Signup';
+
 const navbar = () => {
 
   return (
    <>
-<Router>
+
 <nav className=" fixed-top d3">
       <div className="container-fluid">
     <div className="row"> <div className="col top" ><p className="tex"> Shop Our Festive Collection  <a href="eshop.html" className="xyz"><b> Here</b></a></p> </div></div></div> </nav>
@@ -49,14 +45,13 @@ const navbar = () => {
             <Link to="/signup">Sign-up</Link>         
                </li>
           </ul>
-          <Routes/>
-          <Route path="/Signup" component={Signup} />
+         
 
         </div></div>
     </nav></div></div>
 
     
-    </Router>
+
    </>
   )
 }

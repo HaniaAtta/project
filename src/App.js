@@ -10,10 +10,14 @@ import './css/Darklight.css'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
 import Footer from './components/Footer'
-function App() {
+import {
+  BrowserRouter as Router,
   
+} from "react-router-dom";
+function App() {
+
   return (
-   <>
+  <Router>
 
    <Navbar/>
    <Main/>
@@ -21,7 +25,7 @@ function App() {
 
    
    
-   </>
+   </Router>
   );
 }
 
