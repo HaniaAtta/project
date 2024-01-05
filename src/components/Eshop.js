@@ -14,12 +14,16 @@ import Sho1 from "../../src/images/image10.jpg";
 import Sho2 from "../../src/images/garden2.jpeg";
 import Sho3 from "../../src/images/image8.jpg";
 import Sho4 from "../../src/images/image12.jpg";
+import {Link} from "react-router-dom";
+import Shi from "../../src/images/shop.jpg";
 
 const eshop = () => {
   return (
     <>
-    <div className="pasha"></div>
-<div className="container-fluid ">
+<div className="container-fluid">
+    <img src={Shi} alt="./" className="image-fluid w-100"/>
+   </div>
+   <div className="container-fluid ">
 
 <br/>
   <div className="space3">
@@ -55,7 +59,9 @@ const eshop = () => {
 <br/>
 
 
-<button type="button" className="btn btn-primary fixleft"> <a href="policy.html" className="poterr">Privacy Policy</a></button>
+<button type="button" className="btn btn-primary fixleft"> 
+<Link className="poterr" to="/policy">Privacy Policy</Link>   
+</button>
 
 <div className="container">
     <div className="row">
@@ -63,9 +69,9 @@ const eshop = () => {
             <div className="card micas">
                 <img src={Shop1} className="card-img-top" alt="..."/>
                 <div className="card-body">
-                    <h5 className="card-title">Wildflowers Bouquet</h5>
-                    <p className="card-text">$19.99</p>
-                    <a href="register.html" className="btn btn-primary" target="_blank">Buy Now</a>
+                    <h5 className="card-title1">Wildflowers Bouquet</h5>
+                    <p className="card-text1">$19.99</p>
+                    <Link className="btn btn-primary" to="/register">Buy Now</Link>  
                 </div>
             </div>
         </div>
@@ -75,7 +81,7 @@ const eshop = () => {
                 <div className="card-body">
                     <h5 className="card-title">Flower Jar</h5>
                     <p className="card-text">$29.99</p>
-                    <a href="register.html" className="btn btn-primary" target="_blank">Buy Now</a>
+                    <Link className="btn btn-primary" to="/register">Buy Now</Link>  
                 </div>
             </div>
         </div>
@@ -85,7 +91,7 @@ const eshop = () => {
                 <div className="card-body">
                     <h5 className="card-title">Special Bouquet</h5>
                     <p className="card-text">$39.99</p>
-                    <a href="register.html" className="btn btn-primary" target="_blank">Buy Now</a>
+                    <Link className="btn btn-primary" to="/register">Buy Now</Link>  
                 </div>
             </div>
         </div>
@@ -104,7 +110,7 @@ const eshop = () => {
                 <div className="card-body">
                     <h5 className="card-title">White Bouquet</h5>
                     <p className="card-text">$29.99</p>
-                    <a href="register.html" className="btn btn-primary" target="_blank">Buy Now</a>
+                    <Link className="btn btn-primary" to="/register">Buy Now</Link>  
                 </div>
             </div>
         </div>
@@ -114,7 +120,7 @@ const eshop = () => {
                 <div className="card-body">
                     <h5 className="card-title">Herbal Tea Leaves</h5>
                     <p className="card-text">$12.99</p>
-                    <a href="register.html" className="btn btn-primary" target="_blank">Buy Now</a>
+                    <Link className="btn btn-primary" to="/register">Buy Now</Link>  
                 </div>
             </div>
         </div>
@@ -124,7 +130,7 @@ const eshop = () => {
                 <div className="card-body">
                     <h5 className="card-title">Hibiscus Tea </h5>
                     <p className="card-text">$29.99</p>
-                    <a href="register.html" className="btn btn-primary" target="_blank">Buy Now</a>
+                    <Link className="btn btn-primary" to="/register">Buy Now</Link>  
                 </div>
             </div>
         </div>
@@ -147,7 +153,7 @@ const eshop = () => {
                 <div className="card-body">
                     <h5 className="card-title">Gardening Kit </h5>
                     <p className="card-text">$69.99</p>
-                    <a href="register.html" className="btn btn-primary" target="_blank">Buy Now</a>
+                    <Link className="btn btn-primary" to="/register">Buy Now</Link>  
                 </div>
             </div>
         </div>
@@ -157,7 +163,7 @@ const eshop = () => {
                 <div className="card-body">
                     <h5 className="card-title">Gardening Gloves</h5>
                     <p className="card-text">$9.99</p>
-                    <a href="register.html" className="btn btn-primary" target="_blank">Buy Now</a>
+                    <Link className="btn btn-primary" to="/register">Buy Now</Link>  
                 </div>
             </div>
         </div>
@@ -168,7 +174,7 @@ const eshop = () => {
                 <div className="card-body">
                     <h5 className="card-title">Planter</h5>
                     <p className="card-text">$9.99</p>
-                    <a href="register.html" className="btn btn-primary" target="_blank">Buy Now</a>
+                    <Link className="btn btn-primary" to="/register">Buy Now</Link>  
                 </div>
             </div>
         </div>
@@ -189,7 +195,7 @@ const eshop = () => {
                     <div className="card-body">
                         <h5 className="card-title">Rake</h5>
                         <p className="card-text">$12.99</p>
-                        <a href="register.html" className="btn btn-primary" target="_blank">Buy Now</a>
+                        <Link className="btn btn-primary" to="/register">Buy Now</Link>  
                     </div>
                 </div>
             </div>
@@ -199,7 +205,7 @@ const eshop = () => {
                     <div className="card-body">
                         <h5 className="card-title">Gardening Fork </h5>
                         <p className="card-text">$29.99</p>
-                        <a href="register.html" className="btn btn-primary" target="_blank">Buy Now</a>
+                        <Link className="btn btn-primary" to="/register">Buy Now</Link>  
                     </div>
                 </div></div>
                 <div className="col-md-4">
@@ -208,7 +214,7 @@ const eshop = () => {
                         <div className="card-body">
                             <h5 className="card-title">Beginner's Kit</h5>
                             <p className="card-text">$49.99</p>
-                            <a href="register.html" className="btn btn-primary" target="_blank">Buy Now</a>
+                            <Link className="btn btn-primary" to="/register">Buy Now</Link>  
                         </div>
                     </div>
                 </div>
@@ -227,7 +233,7 @@ const eshop = () => {
         <div className="card-body">
             <h5 className="card-title">Biodegradable Seeds</h5>
             <p className="card-text">$39.99</p>
-            <a href="register.html" className="btn btn-primary" target="_blank">Buy Now</a>
+            <Link className="btn btn-primary" to="/register">Buy Now</Link>  
         </div>
     </div>
 </div>
@@ -237,7 +243,7 @@ const eshop = () => {
         <div className="card-body">
             <h5 className="card-title">Flower Pot</h5>
             <p className="card-text">$19.99</p>
-            <a href="register.html" className="btn btn-primary" target="_blank">Buy Now</a>
+            <Link className="btn btn-primary" to="/register">Buy Now</Link>  
         </div>
     </div>
 </div>

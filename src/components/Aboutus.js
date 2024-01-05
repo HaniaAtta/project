@@ -2,12 +2,15 @@ import React from 'react'
 import About from "../../src/images/manahil.jpeg";
 import About1 from "../../src/images/haniatta.jpg";
 import About2 from "../../src/images/menahil.jpeg";
+import {Link} from "react-router-dom";
+import Abt from "../../src/images/backdrop.jpeg";
 
 const Aboutus = () => {
   return (
     <>
-    <div className="parall"></div>
-<br/>
+<div className="container-fluid">
+    <img src={Abt} alt="./" className="image-fluid w-100"/>
+   </div><br/>
 <div className="space3">
   <nav aria-label="breadcrumb">
     <ol className="breadcrumb">
@@ -28,7 +31,9 @@ const Aboutus = () => {
 </div>
 
 
-<button type="button" className="btn btn-primary fixleft"> <a href="policy.html" className="poterr">Privacy Policy</a></button>
+<button type="button" className="btn btn-primary fixleft">
+<Link className="poterr" to="/policy">Privacy Policy</Link>   
+   </button>
 
 
 <div className="container manahil">

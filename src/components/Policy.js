@@ -1,20 +1,16 @@
 import React from 'react'
+import Pol from "../../src/images/background.jpg";
 
 const Policy = () => {
-  const paraSty = {
-    backgroundImage: 'url("https://images.unsplash.com/photo-1503435980610-a51f3ddfee50?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhdmVzJTIwYmFja2dyb3VuZCUyMGxhbmRzY2FwZXxlbnwwfHwwfHx8MA%3D%3D")',
-    height: '700px',
-    backgroundAttachment: 'fixed',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover'
-};
+ 
 
 
   return (
     <>
+     <div className="container-fluid">
+    <img src={Pol} alt="./" className="image-fluid w-100"/>
+   </div>
     <br/>
-    <div style={paraSty}></div>
        <div className="space5">
          <label className="toggle-switch">
            <input type="checkbox" onchange="toggleDarkLight()" id="darkLightToggle"/>

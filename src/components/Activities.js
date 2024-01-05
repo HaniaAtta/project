@@ -27,13 +27,19 @@ import Activ4 from "../../src/images/banana.jpg";
 import Activ5 from "../../src/images/bromelia.jpg";
 import Activ6 from "../../src/images/palm.jpg";
 import Activ7 from "../../src/images/orchid.jpg";
+import {Link} from "react-router-dom";
+import Kid from "../../src/images/784.jpg";
 
 const activities = () => {
+
+ 
   return (
     <>
-    <div className="paralacti">
-          
-          </div>
+
+   <div className="container-fluid">
+    <img src={Kid} alt="./" className="image-fluid w-100"/>
+   </div>
+
           <div className="space3">
             <br/>
           <nav aria-label="breadcrumb">
@@ -50,7 +56,9 @@ const activities = () => {
             <span className="slider round"></span>
           </label></div>
           
-          <button type="button" className="btn btn-primary fixleft"> <a href="policy.html" className="poterr">Privacy Policy</a></button>
+          <button type="button" className="btn btn-primary fixleft"> 
+          <Link className="poterr" to="/policy">Privacy Policy</Link>   
+          </button>
   
   <div className="container">
     <div className="row">
@@ -674,7 +682,8 @@ const activities = () => {
             <h2><b>Take A Quiz!</b> </h2><br/>
         <p>
           Take this simple quiz to find out what flower you are.<br/> You could end up being your very favorite flower, or you may find a new favorite</p>
-          <br/> <a  className="doc" href="quiz.html"><b>CLICK HERE</b></a>
+          <br/> 
+          <Link className="doc" to="/quiz"> <b>Click Here To take a Quiz</b></Link>  
           </div>
         </div>
       </div>

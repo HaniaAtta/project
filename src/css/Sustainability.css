@@ -1,21 +1,5 @@
 
 
-.main_image img{
-    height:40%;
-    width:100%;
-    padding:0px;
-    
-    }
-    .main_image{
-    padding:0px;
-    margin-right:0px;
-    block-size: gutter x 0rem;
-    
-    }
-    .solid-navbar {
-    background-color: #123420;
-    color:whitesmoke;
-    }
     
     .gerny{
         font-family: Libre Baskerville;
@@ -35,7 +19,7 @@
     }
     
     .sustac{
-      background-image: url('./images/garden12.jpg');
+      /*background-image: url('./images/garden12.jpg');*/
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;

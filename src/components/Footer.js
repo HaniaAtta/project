@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
 const footer = () => {
   
@@ -33,21 +34,29 @@ const footer = () => {
           <br/>
         
           <li>Contact Us On:</li>
-          <div className="icon">  <i className="fa fa-phone" aria-hidden="true"></i>
-            <p className="icon">+65 41627673</p>
+          <div className="icon4">  <i className="fa fa-phone" aria-hidden="true"></i>
+            <p className="icon4">+65 41627673</p>
           </div> <br/>
           <div className="icon2"><i className="fa fa-envelope-o" aria-hidden="true"></i>
-            <p className="icon">dandelions.botanicalgarden@gmail.com</p>
+            <p className="icon4">dandelions.botanicalgarden@gmail.com</p>
           </div>
       </div>
       
       
       <ul className="box">
         <li className="link_name">Dandelions</li>
-        <li className="link_name"><a href="aboutus.js">About us</a></li>
-        <li className="link_name"><a href="courses.js">Courses</a></li>
-        <li className="link_name"><a href="tour.js">Tour</a></li>
-        <li className="link_name"><a href="activities.js">Activities</a></li>
+        <li className="link_name">
+        <Link to="/aboutus">About us</Link>      
+          </li>
+        <li className="link_name">
+        <Link  to="/courses">Courses</Link>      
+        </li>
+        <li className="link_name">
+        <Link  to="/tour">Tour</Link>  
+          </li>
+        <li className="link_name">
+        <Link  to="/activities">Activities</Link>  
+          </li>
       </ul>
       <ul className="box input-box">
         <div className="form-group">

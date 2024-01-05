@@ -1,5 +1,5 @@
 import React from 'react'
-import Register from "../../src/images/footer.jpeg";
+import Registe from "../../src/images/footer.jpeg";
 
 const Register = () => {
   return (
@@ -8,7 +8,7 @@ const Register = () => {
       
       <div className="row ">
           <div className="col-md-5 ">
-<img src={Register} alt="" className="image-fluid w-100 h-100 fitr4"/>
+<img src={Registe} alt="" className="image-fluid w-100 h-100 fitr4"/>
 <h1 className="title">REGISTER</h1>
           </div>
           <div className="col-md-7 mt-3 ">

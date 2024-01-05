@@ -7,12 +7,15 @@ import Tour4 from "../../src/images/garden4.jpg";
 import Tour5 from "../../src/images/garden6.jpg";
 import Tour6 from "../../src/images/garden8.jpg";
 import Tour7 from "../../src/images/map2.jpeg";
+import {Link} from "react-router-dom";
+import Tod from "../../src/images/touring.jpg";
 
 const tour = () => {
   return (
     <>
-      <div className="rounder1"></div>
-    <br/>
+<div className="container-fluid">
+    <img src={Tod} alt="./" className="image-fluid w-100"/>
+   </div>    <br/>
     <div className="space3">
       <nav aria-label="breadcrumb">
         <ol className="breadcrumb">
@@ -32,7 +35,9 @@ const tour = () => {
     <br/>
     <br/>
     <br/>
-    <button type="button" className="btn btn-primary fixleft"> <a href="policy.html" className="poterr">Privacy Policy</a></button>
+    <button type="button" className="btn btn-primary fixleft">
+    <Link className="poterr" to="/policy">Privacy Policy</Link>   
+       </button>
 
 
     <div className="container">
@@ -160,7 +165,9 @@ const tour = () => {
 <br/>
 <div className="row">
   <div className="col">
-    <button className="button"><a href="booking.html" className="panama" target="_blank"><span>Book Your Ticket</span></a>  </button>
+    <button className="button">
+    <Link className="panama" to="/booking">Book Your Ticket</Link>  
+       </button>
 
   </div>
 </div>

@@ -1,12 +1,15 @@
 import React from 'react'
 import Sustain from "../../src/images/sustain1.jpeg";
 import Sustain1 from "../../src/images/sustain2.jpeg";
+import {Link} from "react-router-dom";
+import Sust from "../../src/images/garden12.jpg";
 
 const sustainability = () => {
   return (
    <>
-       <div className="sustac"></div>
-
+<div className="container-fluid">
+    <img src={Sust} alt="./" className="image-fluid w-100"/>
+   </div>
 <br/>
 <div className="space3">
   <nav aria-label="breadcrumb">
@@ -26,7 +29,9 @@ const sustainability = () => {
 
 
 
-<button type="button" className="btn btn-primary fixleft"> <a href="policy.html" className="poterr">Privacy Policy</a></button>
+<button type="button" className="btn btn-primary fixleft">
+<Link className="poterr" to="/policy">Privacy Policy</Link>   
+   </button>
 
 
 <br/>
@@ -127,7 +132,9 @@ const sustainability = () => {
 <br/>
 <br/>
 <br/>
-<button className="button76"> <a href="register.html" className="button76"><span>Donate Now </span></a> </button>
+<button className="button76">
+<Link className="button76" to="/register">Donate Now</Link>  
+   </button>
 
 </div>
 <br/>

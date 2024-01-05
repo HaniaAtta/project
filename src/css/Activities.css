@@ -44,7 +44,7 @@
       background: #1F2027; 
     }
   .paralacti{
-    background-image: url('./images/784.jpg');
+   /* background-image: url('./images/784.jpg');*/
     background-repeat: no-repeat;
    height: 700px;
     background-size: cover;
@@ -88,8 +88,9 @@
       font-size: 80%;
   }
   #bg{
-    background-image: url('./images/785.jpg');
+ /*   background-image: url('./images/785.jpg');*/
     background-repeat: no repeat;
+    background-color: #0B4D09;
   background-size:cover;
   height:50%;
   width:100%;

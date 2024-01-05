@@ -44,12 +44,34 @@
       text-align: center;
       position: relative;
    }
+   .img1 img{
+    vertical-align: middle; 
+    height: 30%;
+    width: 40%;
+    margin: 0% 30% 2% 30%;
+}
+.t54{
+  color: black;
+}
+.rigf45{
+  background: #21541F;
+      height: 20%;
+      color: white;
+      text-align: center;
+      border-radius: 2px;
+      font-family: poppins;
+      padding: 5%;
+  
+   }
+   .tr45{
+    color: black;
+   }
      .bt4 a{
       text-decoration: none;
       color: black;
      }
      .parallex1 {
-      background-image: url('./images/his.jpg');
+     /* background-image: url('./images/his.jpg');*/
       height: 500px;
      
       background-attachment: fixed;

@@ -1,13 +1,16 @@
 import React from 'react'
-import Quiz from "../../src/images/quiz2.jpg";
+import Quize from "../../src/images/quiz2.jpg";
+import {Link} from "react-router-dom";
+import Qiu from "../../src/images/781.jpg";
 
 const Quiz = () => {
   return (
     <>
     
-    <div className="parallax3 mb-3">
-    
-    </div>
+    <div className="container-fluid">
+    <img src={Qiu} alt="./" className="image-fluid w-100"/>
+   </div>     
+   
     <br/>
     <div className="space3">
       <nav aria-label="breadcrumb">
@@ -28,7 +31,9 @@ const Quiz = () => {
       
     
     
-    <button type="button" className="btn btn-primary fixleft"> <a href="policy.html" className="poterr">Privacy Policy</a></button>
+    <button type="button" className="btn btn-primary fixleft">
+    <Link className="poterr" to="/policy">Privacy Policy</Link>   
+       </button>
     
     <div className="container mt-3">
         <div className="row mt-3">
@@ -41,15 +46,15 @@ const Quiz = () => {
         <div className="row">
             <div className="col-md-3"></div>
             <div className="col-md-7">
-                <div className="card " style="width: 32rem;">
-                    <img src={Quiz} className="card-img-top" alt="..."/>
+                <div className="card  rem" >
+                    <img src={Quize} className="card-img-top" alt="..."/>
                     <div className="card-body mt-3 quizy">
                       <h5 className="card-title mt-3 mb-3">What Flower Are You?</h5>
                       <p className="card-text mt-3">Dandelion is a humble Plant , symbolizes hope, healing, and resilience.It is derived from a french word menaing lion's teeth.  For centuries flowers have been attributed meanings so that even the deepest emotions could be conveyed silently with a single offering of these expressive blooms. 
             <br/>
                         Although this is not a scientific quiz, for some fun here at Dandelions we have done our research and come up with a few simple questions to help you find which flower best describes your personality. We hope you enjoy discovering what flower suits you!</p>
                       <button className="btn btn-primary a5">Start Below</button>
-                      <p className="mt-3"> <B>FLOWER</B></p>
+                      <p className="mt-3"> <b>FLOWER</b></p>
                     </div>
                   </div>
             </div>

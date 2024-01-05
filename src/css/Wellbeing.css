@@ -28,7 +28,7 @@
     font-family: poppins;
  }
  .parallex2 {
-     background-image: url('./images/spre.jpeg');
+   /*  background-image: url('./images/spre.jpeg');*/
      height: 700px;
     
      background-attachment: fixed;

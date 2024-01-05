@@ -1,10 +1,13 @@
 import React from 'react'
+import {Link} from "react-router-dom";
+import Enq from "../../src/images/Doctor.jpg";
 
 const enquiry = () => {
   return (
     <>
-    <div className="parallax56"></div>
-<div className="space3">
+<div className="container-fluid t54">
+    <img src={Enq} alt="./" className="image-fluid w-100"/>
+   </div><div className="space3">
   <br/>
 <nav aria-label="breadcrumb">
   <ol className="breadcrumb">
@@ -21,12 +24,14 @@ const enquiry = () => {
     <span className="slider round"></span>
   </label>
 </div>
-<button type="button" className="btn btn-primary fixleft"> <a href="policy.html" className="poterr">Privacy Policy</a></button>
+<button type="button" className="btn btn-primary fixleft"> 
+<Link className="poterr" to="/policy">Privacy Policy</Link>   
+</button>
 
 <br/>
 <br/>
 
-<div className="container">
+<div className="container tr45">
    <div className="row">
       <div className="col"><h1 className="header">
    <b>Plant Doctor</b>: Ask Us Anything!</h1><br/><br/>
@@ -46,62 +51,58 @@ const enquiry = () => {
 
 <h3>PARTICULARS</h3><br/><br/>
 </div></div>
-<form className="row g-3 needs-validation" novalidate>
-  <div className="col-md-4">
+<form className="row g-3 needs-validation " novalidate>
     <div className="form-outline" data-mdb-input-init>
-      <label for="validationCustom01" className="form-label"><b>First/Given Name</b></label>
+      <label for="validationCustom01" className="form-label t54"><b>First/Given Name</b></label>
       <input type="text" className="form-control" id="validationCustom01" placeholder=" First Name" required />
       
       <div className="valid-feedback">Looks good!</div>
     </div>
-  </div>
-  <div className="col-md-4">
+  
     <div className="form-outline" data-mdb-input-init>
-      <label for="validationCustom02" className="form-label"><b>Last Name/Surname</b></label>
+      <label for="validationCustom02" className="form-label t54"><b>Last Name/Surname</b></label>
       <input type="text" className="form-control" id="validationCustom02" placeholder= "Last Name" required />
       
       <div className="valid-feedback">Looks good!</div>
     </div>
-  </div>
+ 
 
 <br/>
 <br/>
 <br/>
-  <div className="col-md-4">
     <div className="form-outline" data-mdb-input-init>
-      <label for="validationCustom02" className="form-label"><b>Email Address</b></label>
+      <label for="validationCustom02" className="form-label t54"><b>Email Address</b></label>
       <input type="Email" className="form-control" id="validationCustom02" placeholder="Email" required />
       
       <div className="valid-feedback">Looks good!</div>
-  </div></div>
-  <div className="col-md-4">
+  </div>
     <div className="form-outline" data-mdb-input-init>
-      <label for="validationCustom02" className="form-label"><b>Contact Number</b></label>
+      <label for="validationCustom02" className="form-label t54"><b>Contact Number</b></label>
       <input type="text" className="form-control" id="validationCustom02" placeholder="Contact Number" required />
       
       <div className="valid-feedback">Looks good!</div>
-  </div></div>
+  </div>
 
 
 
 <h2>
   <br/>
-<label className="labels">Type of Enquiry</label></h2>
-<div className="form-check">
-  <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"/>
-  <label className="form-check-label" for="exampleRadios1">
+<label className="labels t54">Type of Enquiry</label></h2>
+<div className="form-check3 t54">
+  <input className="form-check-input t54" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"/>
+  <label className="form-check-label1 t54" for="exampleRadios1">
     Plant Care
   </label>
 </div>
-<div className="form-check">
-  <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2"/>
-  <label className="form-check-label" for="exampleRadios2">
+<div className="form-checkt54 ">
+  <input className="form-check-input t54" type="radio" name="exampleRadios" id="exampleRadios2" value="option2"/>
+  <label className="form-check-label1 t54" for="exampleRadios2">
     Plant Health
   </label>
 </div>
-<div className="form-check">
-  <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" />
-  <label className="form-check-label" for="exampleRadios3">
+<div className="form-check t54">
+  <input className="form-check-input t54" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" />
+  <label className="form-check-label t54" for="exampleRadios3">
     Plant Identification
   </label>
 </div>

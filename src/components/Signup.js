@@ -1,10 +1,9 @@
 import React from 'react'
 import Sign from "../../src/images/781.jpg";
-
 const Signup = () => {
   return (
     <>
-    <div className="container">
+    <div className="container l1">
   
   <input type="checkbox" id="flip"/>
   <div className="cover">
@@ -37,8 +36,8 @@ const Signup = () => {
               <i className="fas fa-lock"></i>
               <input type="password" placeholder="Enter your password" required/>
             </div>
-            <div className="text"><a href="#">Forgot password?</a></div>
-            <div className="button input-box">
+            <div className="text"><a href="/">Forgot password?</a></div>
+            <div className="button1">
               <input type="submit" value="Sumbit"/>
             </div>
             <div className="text sign-up-text">Don't have an account? <label for="flip">Sigup now</label></div>

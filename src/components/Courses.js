@@ -7,12 +7,15 @@ import Courses4 from "../../src/images/learn3.jpg";
 import Courses5 from "../../src/images/learn6.jpg";
 import Courses6 from "../../src/images/learn10.jpg";
 import Courses7 from "../../src/images/learn5.jpg";
+import {Link} from "react-router-dom";
+import Cal from "../../src/images/garden4.jpg";
 
 const courses = () => {
   return (
     <>
-    <div className="paret"></div>
-    <br/>
+<div className="container-fluid">
+    <img src={Cal} alt="./" className="image-fluid w-100"/>
+   </div>    <br/>
     <div className="space3">
       <nav aria-label="breadcrumb">
         <ol className="breadcrumb">
@@ -32,7 +35,9 @@ const courses = () => {
     </div>
     <br/>
     <br/>
-    <button type="button" className="btn btn-primary fixleft"> <a href="policy.html" className="poterr">Privacy Policy</a></button>
+    <button type="button" className="btn btn-primary fixleft">
+    <Link className="poterr" to="/policy">Privacy Policy</Link>   
+       </button>
 
     <div className="container ">
         <h1 className="h1">Go beyond the classNameroom with <b>Nature</b></h1>

@@ -50,13 +50,13 @@
 .eshop{
   color: black;
 }
-.p1{
+.p12{
   font-family: libre baskerville;
   color: #144126;
   
   
 }
-.p2{
+.p22{
   font-family: poppins;
   
   
@@ -71,7 +71,7 @@
   
   
 }
-.button {
+.button1 {
   border-radius: 10px;
   background-color:#4CB77C;
   border: none;
@@ -85,14 +85,14 @@
   margin: 5px;
 }
 
-.button span {
+.button1 span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.button span:after {
+.button1 span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -101,11 +101,11 @@
   transition: 0.5s;
 }
 
-.button:hover span {
+.button1:hover span {
   padding-right: 20px;
 }
 
-.button:hover span:after {
+.button1:hover span:after {
   opacity: 1;
   right: 0;
 }

@@ -5,12 +5,16 @@ import Garden2 from "../../src/images/happy.jpg";
 import Garden3 from "../../src/images/enjoyi.jpg";
 import Garden4 from "../../src/images/ment.jpg";
 import Garden5 from "../../src/images/soil.jpg";
+import {Link} from "react-router-dom";
+import Gid from "../../src/images/garden1.jpg";
 
 const gardening = () => {
   return (
     <>
-    <div className="parallex1"> </div>
-<br/>
+<div className="container-fluid">
+    <img src={Gid} alt="./" className="image-fluid w-100"/>
+   </div>
+   <br/>
 <div className="space3">
   <nav aria-label="breadcrumb">
     <ol className="breadcrumb">
@@ -30,7 +34,9 @@ const gardening = () => {
   </label>
 </div>
 
-<button type="button" className="btn btn-primary fixleft"> <a href="policy.html" className="poterr">Privacy Policy</a></button>
+<button type="button" className="btn btn-primary fixleft"> 
+<Link className="poterr" to="/policy">Privacy Policy</Link>   
+</button>
 
     <div className="container "><div className="row ">
         <div className="col  mt-3">
@@ -72,11 +78,13 @@ const gardening = () => {
           <br/>
            <h6>Gardens can work wonders when we are stressed and under pressure.
            <br/>
-            Gardening can help us achieve the  <a href="wellbeing.html" className="linked">'five ways to wellbeing using gardens and nature'</a>. Through them we can connect, be active, take notice, learn and give.
+            Gardening can help us achieve the 
+            <Link className="linked" to="/wellbeing">'five ways to wellbeing using gardens and nature'</Link>      
+             . Through them we can connect, be active, take notice, learn and give.
            </h6>
           <h4 className="decision">
-            <i className="fa-brands fa-envira fa-rotate-90" style="color: #103315;"></i><span>A decision to go outside in my wheelchair one day saved my life. Sitting in the Sun, my shoulders are dropped, my breathing slowed....something had changed and it felt very positive.</span>
-            <i className="fa-brands fa-envira fa-rotate-90" style="color: #103315;"></i>
+            <i className="fa-brands fa-envira fa-rotate-90 icon" ></i><span>A decision to go outside in my wheelchair one day saved my life. Sitting in the Sun, my shoulders are dropped, my breathing slowed....something had changed and it felt very positive.</span>
+            <i className="fa-brands fa-envira fa-rotate-90 icon" ></i>
 
           </h4>
          

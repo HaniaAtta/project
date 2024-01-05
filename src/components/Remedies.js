@@ -1,9 +1,16 @@
 import React from 'react'
+import Redmi from "../../src/images/img.jpeg";
+import Rit from "../../src/images/imgr5.jpg";
+
+import {Link} from "react-router-dom";
 
 const Remedies = () => {
+   
   return (
     <>
-    <div className="remedy657"></div>
+     <div className="container-fluid">
+    <img src={Rit} alt="./" className="image-fluid w-100"/>
+   </div>
    <br/>
    <div className="space3">
        <nav aria-label="breadcrumb">
@@ -23,11 +30,13 @@ const Remedies = () => {
    
    
    
-   <button type="button" className="btn btn-primary fixleft"> <a href="policy.html" className="poterr">Privacy Policy</a></button>
+   <button type="button" className="btn btn-primary fixleft">
+   <Link className="poterr" to="/policy">Privacy Policy</Link>   
+     </button>
 
 
 <div className="container-fluid img1">
-  <img src="images/img.jpeg"  /></div> 
+  <img src={Redmi} alt='img' /></div> 
 
 <div className="container "> 
 <div className="row"><div className="col-md-1"></div><div className="col-md-10 rigf45">

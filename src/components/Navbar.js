@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from "react-router-dom";
 const navbar = () => {
 
   return (
@@ -7,7 +7,9 @@ const navbar = () => {
 
 <nav className=" fixed-top d3">
       <div className="container-fluid">
-    <div className="row"> <div className="col top" ><p className="tex"> Shop Our Festive Collection  <a href="eshop.html" className="xyz"><b> Here</b></a></p> </div></div></div> </nav>
+    <div className="row"> <div className="col top" ><p className="tex"> Shop Our Festive Collection
+    <Link className="xyz" to="/eshop"><b>Here</b></Link>      
+      </p> </div></div></div> </nav>
 
     
     
@@ -22,28 +24,25 @@ const navbar = () => {
         <div className="collapse navbar-collapse items1 " id="navbarNavDropdown">
           <ul className="navbar-nav ">
             <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="index.html" >Home</a>
-            </li>
+            <Link className="nav-link" to="/home">Home</Link>            </li>
             <li className="nav-item">
-              <a className="nav-link " href="remedies.html" >Remedies </a>
-            </li>
+            <Link className="nav-link" to="/remedies">Remedies</Link>            </li>
             <li className="nav-item">
-              <a className="nav-link " href="activities.html">Activities</a>
-            </li>
+            <Link className="nav-link" to="/activities">Activities</Link>  
+                      </li>
             <li>
-            <a className="nav-link " href="gardentherapy.html" >Gardening</a>
-            </li>
+            <Link className="nav-link" to="/gardening">Gardening</Link>      
+                  </li>
+           
             <li>
-            <a className="nav-link " href="gardentherapy.html" >Gallery</a>
+            <Link className="nav-link" to="/gallery">Gallery</Link>      
             </li>
     
               <li className="nav-item  ">
-              <a className="nav-link " href="gardentherapy.html" >Gallery</a>
+              <Link className="nav-link" to="/courses">Courses</Link>      
             
             </li>
-            <li>
-            <a className="nav-link " href="gardentherapy.html" >Sign-up</a>
-               </li>
+           
           </ul>
           
 

@@ -57,23 +57,13 @@ font-size:25px;
 }
 
 .pasha{
-  background-image: url('images/shop.jpg');
+  /*background-image: url('images/shop.jpg');*/
   background-repeat: no-repeat;
   height: 600px;
   background-attachment: fixed;
   background-position: center;  background-size: cover;
 }
-.main_image img{
-height:40%;
-width:100%;
-padding:0px;
 
-}
-.main_image{
-padding:0px;
-margin:0px;
-block-size: gutter x 0rem;;
-}
 .btn {
 background-color:#093B31;
 border: 2px solid #093B31;
@@ -87,6 +77,9 @@ border: 2px solid #093B31;
 .card-img-top{
 height: 355px;
 width: 355px;
+}
+.mis{
+  width: 20rem;
 }
 .solid-navbar {
 background-color: #123420;

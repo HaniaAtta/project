@@ -1,5 +1,5 @@
 import React from 'react'
-import History from "../../src/images/s1.jpg";
+import Histor from "../../src/images/s1.jpg";
 import History1 from "../../src/images/s2.jpg";
 import History2 from "../../src/images/s3.jpg";
 import History3 from "../../src/images/s4.jpg";
@@ -10,12 +10,15 @@ import History7 from "../../src/images/illustrate.jpg";
 import History8 from "../../src/images/world botanic.jpg";
 import History9 from "../../src/images/HERB.JPG";
 import Historyy from "../../src/images/plantnature.jpg";
+import {Link} from "react-router-dom";
+import Hit from "../../src/images/his.jpg";
 
 const History = () => {
   return (
     <>
-    <div className="parallex1">   </div>
-  <br/>
+<div className="container-fluid">
+    <img src={Hit} alt="./" className="image-fluid w-100"/>
+   </div>  <br/>
   <div className="space3">
     <nav aria-label="breadcrumb">
       <ol className="breadcrumb">
@@ -34,7 +37,9 @@ const History = () => {
       <span className="slider round"></span>
     </label>
   </div>
-  <button type="button" className="btn btn-primary fixleft"> <a href="policy.html" className="poterr">Privacy Policy</a></button>
+  <button type="button" className="btn btn-primary fixleft">
+  <Link className="poterr" to="/policy">Privacy Policy</Link>   
+     </button>
 
     <div className="container "><div className="row ">
         <div className="col  mt-3">
@@ -84,7 +89,7 @@ BGCI has developed an Accreditation Scheme to distinguish between gardens and bo
                 </ol>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src={History} className="d-block w-100 ig3" alt="..."/>
+                    <img src={Histor} className="d-block w-100 ig3" alt="..."/>
                     <div className="carousel-caption d-none d-md-block ca3">
                       <h5>Botanic Garden of Padua, Italy</h5>
                       <p>The Botanic Garden at the University of Padua was among the first botanic gardens ever recorded.</p>

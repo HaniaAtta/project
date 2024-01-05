@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Gallery from "../../src/images/try675.jpeg";
+import Galler from "../../src/images/try675.jpeg";
 import Gallery1 from "../../src/images/WhatsApp Image 2023-12-21 at 2.33.29 PM.jpeg";
 import Gallery2 from "../../src/images/galled.jpeg";
 import Gallery3 from "../../src/images/melanie-arouk-NZOIm_NlvPA-unsplash.jpg";
@@ -10,12 +10,15 @@ import Gallery6 from "../../src/images/jonny-gios-sZOproyC8bw-unsplash.jpg";
 import Gallery7 from "../../src/images/juliet-furst-MBte5Q8IzCE-unsplash.jpg";
 import Gallery8 from "../../src/images/lal.jpeg";
 import Gallery9 from "../../src/images/sindy-sussengut-cLwLGgmDuZk-unsplash.jpg";
+import {Link} from "react-router-dom";
+import Gal from "../../src/images/gallery5.jpeg";
 
 const gallery = () => {
   return (
     <>
-    <div className="parallre4"></div>
-<div className="space3">
+<div className="container-fluid">
+    <img src={Gal} alt="./" className="image-fluid w-100"/>
+   </div><div className="space3">
   <br/>
 <nav aria-label="breadcrumb">
   <ol className="breadcrumb">
@@ -32,7 +35,9 @@ const gallery = () => {
   <input type="checkbox" onchange="toggleDarkLight()" id="darkLightToggle"/>
   <span className="slider round"></span>
 </label></div>
-<button type="button" className="btn btn-primary fixleft"> <a href="policy.html" className="poterr">Privacy Policy</a></button>
+<button type="button" className="btn btn-primary fixleft">
+<Link className="poterr" to="/policy">Privacy Policy</Link>   
+   </button>
 
 <div className="container">
 <div className="row"><div className="col"><h1 className="heading"> <br/>GALLERY</h1></div></div></div>
@@ -45,7 +50,7 @@ const gallery = () => {
 <div className="row">
   <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
     <img
-      src={Gallery}
+      src={Galler}
       className="w-100 shadow-1-strong rounded mb-4"
       alt="Boat on Calm Water"
     />

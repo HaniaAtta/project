@@ -14,7 +14,7 @@
 }
 
 .paret{
-    background-image: url('images/garden4.jpg');
+  /*  background-image: url('images/garden4.jpg');*/
     background-repeat: no-repeat;
     height: 600px;
     background-attachment: fixed;

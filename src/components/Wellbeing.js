@@ -4,12 +4,15 @@ import Well1 from "../../src/images/active.jpg";
 import Well2 from "../../src/images/notice.jpg";
 import Well3 from "../../src/images/learn.jpg";
 import Well4 from "../../src/images/give.jpg";
+import {Link} from "react-router-dom";
+import Will from "../../src/images/spre.jpeg";
 
 const Wellbeing = () => {
   return (
     <>
-   <div className="parallex2"></div>
-<br/>
+<div className="container-fluid">
+    <img src={Will} alt="./" className="image-fluid w-100"/>
+   </div><br/>
 <div className="space3">
   <nav aria-label="breadcrumb">
     <ol className="breadcrumb">
@@ -28,7 +31,9 @@ const Wellbeing = () => {
     <span className="slider round"></span>
   </label>
 </div>
-<button type="button" className="btn btn-primary fixleft"> <a href="policy.html" className="poterr">Privacy Policy</a></button>
+<button type="button" className="btn btn-primary fixleft">
+<Link className="poterr" to="/policy">Privacy Policy</Link>   
+     </button>
 
     <div className="container "><div className="row ">
         <div className="col  mt-3">
